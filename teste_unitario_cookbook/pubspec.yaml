@@ -1,0 +1,23 @@
+name: teste_unitario_cookbook
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  test: ^1.15.5
+
+flutter:
+
+  uses-material-design: true
